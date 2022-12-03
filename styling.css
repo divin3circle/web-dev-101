@@ -1,0 +1,36 @@
+#foo1 {
+	text-align:center;
+	background-color:#f8efe1;
+	height:150px;
+	width:326px;
+	padding:17px;
+	margin:auto;
+	border-style:solid;
+	border-radius:25px;
+}
+#descr {
+	font-family:'Bruah Script MT', cursive;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffd22b;
+}
+#cpname {
+	font-family:Impact;
+	font-weight:bold;
+	font-size:30px;
+}
+#foo2 {
+	text-align:center;
+	margin:45px;
+	padding:15px;
+	border-style:solid;
+	border-radius:15px;
+	background-color:#fff7ff;
+}
+label {
+	font-weight:bold;
+	font-size:17px;
+	margin:25px;
+	padding:25px;
+}
+		
