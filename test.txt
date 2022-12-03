@@ -1,4 +1,5 @@
-Hello world, this is my text file.
+13jHello world, this is my text file.;nihogufiygibhonjphgfyudtyfughigcxiyitcughogofyu
+
 function myFunction() {
 	int i;
 	int sum = 0;
@@ -50,4 +51,7 @@ vinivoijj
 		sum += i;
 	}
 	printf("The sum is %d", sum);
-}
+}lus Abel 
+divinecircle
+noob developpper
+
