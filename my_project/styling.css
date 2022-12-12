@@ -1,0 +1,149 @@
+h1 {
+    font-family: 'Kenia', cursive;
+    font-weight: bold;
+    color:antiquewhite;
+}
+
+.slideinleft {
+    height: 150px;
+}
+
+p {
+    font-family:Fredoka One;
+}
+ul {
+    font-family:Fredoka One;
+
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    color:aliceblue;
+    background-color: black;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.blue {
+    background-color: blueviolet;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: silver;
+}
+
+.wave{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 81px;
+}
+
+.wave .shape-fill {
+    fill: black;
+}
+
+.wave2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 81px;
+}
+
+.wave2 .shape-fill {
+    fill: blueviolet;
+}
+
+.wave4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave4 svg {
+    position: relative;
+    display: block;
+    width: calc(120% + 1.3px);
+    height: 118px;
+}
+
+.wave4 .shape-fill {
+    fill: #000000;
+}
+
+.wave3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave3 svg {
+    position: relative;
+    display: block;
+    width: calc(120% + 1.3px);
+    height: 98px;
+}
+
+.wave3 .shape-fill {
+    fill: #000000;
+}
+
+@keyframes slideinleft {
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slideinleft {
+    animation: slideinleft 1s ease-in;
+}
+
+.slideinleft:hover {
+    background-color: aquamarine;
+}
