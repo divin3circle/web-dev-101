@@ -1,0 +1,240 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body 
+{
+    font-family: "Roboto", "sans-serif";
+}
+
+/* Navigation */
+
+.nav-container
+{
+    background: #fffffa;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    height: 90px;
+    margin-top: -65px;
+    z-index: 500;
+    position: relative;
+}
+
+.wrapper
+{
+    width: 1200px;
+    margin: auto;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+
+}
+
+nav ul 
+{
+    display: flex;
+}
+
+nav .logo
+{
+font-family: 'jsMath-cmmi10';
+font-style: italic;
+font-weight: 500;
+font-size: 36px;
+color: #000000;
+
+}
+
+.nav-items li
+{
+    list-style: none;
+    margin-right: 100px;
+
+}
+
+.nav-items li:nth-last-of-type(1) 
+{
+        margin: 0;
+
+}
+
+.nav-items li a 
+{
+    color: #000000;
+    font-family: 'Kenia', sans-serif;
+    font-size: 27px;
+    text-decoration: none;
+
+}
+
+/* head */
+.header-container
+{
+    background: rgba(209, 231, 214, 0.35); 
+    height: calc(140vh - 90px);
+    display: flex;
+    align-items: center;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header h1 
+{
+    font-family: 'Kavoon';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+    margin-bottom: 24px;
+
+}
+
+header p{
+    font-family: 'Kenia', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    width: 558px;
+    margin-bottom: 44px;
+
+
+
+}
+
+header a{
+    font-family: 'Keania One';
+    font-size: 32px;
+    color: #FFFFFA;
+    text-decoration: none;
+
+    background: #E1E512;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 12px 48px;
+    display: inline-block;
+    transition: 300ms;
+
+}
+
+header a:hover
+{
+    transform: translateY(-8px);
+
+
+}
+
+/*social icons */
+.social-icons
+{   width: 443.29px;
+    display: flex;
+    align-items: center;
+    height: 90px;
+
+}
+
+.social-icons a
+{
+    margin: 0 24px;
+
+}
+
+/* avatar image*/
+header .hero-image
+{
+    position: relative;
+
+}
+
+header .hero-image img
+{
+    transition: 350ms;
+    position: relative;
+    z-index: 100;
+}
+
+header .hero-image img:hover
+{
+    transform: rotate(-6deg);
+}
+
+header .hero-image .photo-bg
+{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 47px;
+    top: 21;
+
+    background: #C1E0C8;
+    box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.5);
+    transform: rotate(-7.07deg);
+
+}
+
+/* search box */
+.search-box
+{
+    width: 900px;
+    margin: 0 auto;
+    text-align: right;
+    position: relative;
+    top: 0;
+
+    transition: 300ms;
+
+}
+
+.search-box.active
+{
+    top: 90px;
+
+}
+
+.search-box input
+{
+    background: #FFFFFA;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 0px 8px 8px;
+    line-height: 42px;
+    font-size: 24px;
+    border: 0;
+    padding: 12px 48px;
+    font-family: 'Kenia', sans-serif;
+
+
+}
+
+/*Hidden items*/
+.search-box input::placeholder
+{
+    color:rgba(157, 143, 159, 0.35)
+}
+
+/* Search & close btn */
+.nav-btn-container
+{
+    display: flex;
+    position: relative;
+
+}
+
+.nav-btn-container img
+{
+    position: absolute;
+}
+
